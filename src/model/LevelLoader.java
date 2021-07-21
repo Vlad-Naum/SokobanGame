@@ -19,7 +19,7 @@ public class LevelLoader {
         if(level > 60){
             level %= 60;
         }
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Darkpro\\IdeaProjects\\levels.txt"))) {//"C:\\Users\\Darkpro\\IdeaProjects\\levels.txt"
+        try (BufferedReader br = new BufferedReader(new FileReader("levels.txt"))) {
             int sizeX = 0; int sizeY = 0;
             Set<Box> boxes = new HashSet<>();
             Set<Home> homes = new HashSet<>();
